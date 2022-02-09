@@ -1,0 +1,42 @@
+{
+  "app_name": "Absenteé",
+  "version": "v2.0",
+  "available_opts" : ["Quick View", "CSV Cleaner", "CSV Cleaner (Override OG File)", "Quick View & CSV Cleaner"],
+  "settings": {
+    "delimiters": {
+      "find": ["(RA", "RA"],
+      "split": ["(", " "]
+    },
+    "sleepTime": {
+      "desc": 10,
+      "menu": 15,
+      "exit": 5
+    }
+  },
+  "opts": {
+    "Quick View": {
+      "inMenu": true,
+      "optCode": "qv",
+      "optIndex": "1",
+      "desc": "To view only the RegNo of the absentees"
+    },
+    "CSV Cleaner": {
+      "inMenu": true,
+      "optCode": "cc",
+      "optIndex": "2",
+      "desc": "To clean the CSV and sort the RegNo in ascending order, the cleaned/sorted RegNo is written in a different file"
+    },
+    "CSV Cleaner (Override OG File)": {
+      "inMenu": true,
+      "optCode": "cco",
+      "optIndex": "3",
+      "desc": "To clean the CSV and sort the data in ascending order, the cleaned/sorted data is overwritten in the same file "
+    },
+    "Quick View & CSV Cleaner": {
+      "inMenu": true,
+      "optCode": "qvcc",
+      "optIndex": "4",
+      "desc": "To get the functionality of both Quick View & CSV Cleaner"
+    }
+  }
+}
