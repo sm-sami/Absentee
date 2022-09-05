@@ -18,7 +18,7 @@ Absentee is a command line tool to clean the attendance data obtained from Googl
 >**Warning:** Changing the `optCode`or `optIndex` may result in errors
 
 If none of the above solved your issue, try reverting `config.json` to its default values
-###Default values for `config.json`:
+### Default values for `config.json`:
 ``` json
 {
   "app_name": "Absentee",
