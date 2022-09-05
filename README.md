@@ -1,6 +1,6 @@
 # Absentee
 ## About:
-Absentee is a command line tool to clean the attendance data obtained from Google Meet using [this](https://chrome.google.com/webstore/detail/google-meet-attendance-wo/hjjeaaibilndjeabckakaknlcbblcmbc) Chrome Extension
+Absentee is a command line tool to clean the attendance data obtained from Google Meet 
 
 ## Absentee v2.0
 ### What's new in v2.0:
